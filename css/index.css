@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Convergence');
+
+* {
+    font-family:'Convergence';
+}
+
+p {
+    color:green;
+}
+
+h1 {
+    color:red;
+}
+
+#selected {
+    color:brown;
+}
+
+.mark {
+    color:yellow;
+}
+
+header p {
+    color:blue;
+}
+
+header > p {
+    color:black;
+}
+
+header ~ p {
+    color:orange;
+}
+
+a[href^="https"] {
+    color:green;
+}
+
+p::first-letter {
+    color:black;
+}
+
+p::before {
+    content:"<";
+    color:red;
+}
+
+p:hover {
+    border: 1px solid red;
+}
